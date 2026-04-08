@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "carry-on",
+  "version": "1.0.0",
+  "name": "Carry On",
+  "description": "Pick up mobs, chests, spawners, and other tile entities with your bare hands",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.carryon.CarryOnMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
